@@ -36,8 +36,13 @@ _For now I am not sure how to handle this, but I think that I'd put CASE keyword
 ## Thanks
 Ok, thenk you for reading this. I'd happily work on this together with other people, but let me first creathe the basics for this project. I think that I will implement it in zig language, but I am not certain yet. Go-lang seems promissing too, but I don't know this one just yet. Rust is nice, but  the more I know about other languages, the less it is as impressive as it used to be to me.
 ### TODO:
-- [ ] Choose the programming language and set the repo for it.
-- [ ] Prepare lexer
+- [x] Choose the programming language.
+  - This will be written in Zig
+- [ ] Set the repo for this library.
+- [ ] Prepare lexer in tdd way, as the Zig allows for this.
+- [ ] Figure out the specific path issue.
+
+Actually, I'd prefer to focus on this being a c/c++ compatible library. Maybe a dinamicaly linked .dll file. A CLI and potential GUI implementations could be separate repos. For now I will list those todos below.
+### TODO in another repo:
 - [ ] Add CLI interface
 - [ ] Make CLI interface accept file as the source of the querry
-- [ ] Figure out the specific path issue
