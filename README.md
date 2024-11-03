@@ -38,7 +38,7 @@ Ok, thenk you for reading this. I'd happily work on this together with other peo
 ### TODO:
 - [x] Choose the programming language.
   - This will be written in Zig
-- [ ] Set the repo for this library.
+- [x] Set the repo for this library.
 - [ ] Prepare lexer in tdd way, as the Zig allows for this.
 - [ ] Figure out the specific path issue.
 
